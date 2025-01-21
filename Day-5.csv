@@ -1,0 +1,14 @@
+,"""Day 5 - Testing and Backend Refinement - Nike""",,,,,,
+,,,Nadia 00379333,,,,
+,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Validate homepage responsiveness,"Open homepage on desktop, mobile, and tablet",Layout adjusts as per screen size,Layout adjusts properly,Passed,Medium,Responsive as expected
+TC002,Test product search functionality,Enter keywords in search bar > View results,Relevant products displayed,Relevant products displayed,Passed,High,Works fine
+TC003,Verify product filtering,"Apply filters (e.g., price, category)",Correctly filtered products shown,Filters work as expected,Passed,Medium,All filters functional
+TC004,Validate cart functionality,Add product to cart > Remove product > Verify,Cart updates correctly,Cart updates as expected,Passed,High,Tested successfully
+TC005,Test checkout process,Add product to cart > Checkout > Make payment,Order successfully placed,Order placed successfully,Passed,Critical,Smooth checkout
+TC006,API error handling,Disconnect API > Refresh page,Error message displayed,"""Data not available"" shown",Passed,High,Handled gracefully
+TC007,Test payment gateway integration,Make payment via PayPal/Stripe > Verify order,Payment success & order confirmation,Payment success & confirmation,Passed,Critical,Tested successfully
+TC008,Cross-browser compatibility test,"Open site on Chrome, Safari, Edge, Firefox",Website works on all browsers,Compatible on all browsers,Passed,High,Fully compatible
+TC009,Performance optimization,Run Lighthouse audit,Load time < 2 seconds,Load time 1.8 seconds,Passed,High,Optimization successful
+TC010,Security validation,Enter malicious script in input fields,Input rejected,Input validation prevents attack,Passed,Critical,Secure against attacks
